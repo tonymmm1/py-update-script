@@ -1,11 +1,11 @@
-##Release: 0.1.0
-##py-update-script
+## Release: 0.1.0
+## py-update-script
 
-###Overview
+### Overview
 
 This is a simple python script to update linux machines over ssh. It is configurable using a TOML file. 
 
-###Instructions
+### Instructions
 
 1. Make sure python3 is installed
 2. Look at hosts.example.toml and copy it to hosts.toml
