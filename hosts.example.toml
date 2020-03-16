@@ -1,0 +1,10 @@
+#Example TOML file
+#os options:
+#	debian,centos,fedora,arch,arch1(with yay)
+#
+
+#[hostname]
+#	ip_address=	"ip"
+#	port=		"port"
+#	os=		"distro"
+#	user=		"user"
