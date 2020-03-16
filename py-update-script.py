@@ -19,10 +19,9 @@ def file_host_read(host_file,debug):
         ip_address= hosts[1]["ip_address"]
         os= hosts[1]["os"]
         user= hosts[1]["user"]
-        docker= hosts[1]["docker"]
         port= hosts[1]["port"]
-        commands(ip_address,port,os,user,docker)
-def commands(ip_address, port, os, user, docker):
+        commands(ip_address,port,os,user)
+def commands(ip_address, port, os, user):
     if (os == "arch"):
         subprocess.run("ssh -t -p" + port + " " + user + "@" + ip_address + ' "yes | sudo pacman -Syyu && yes | sudo pacman -c"', shell=True)
     if (os == "arch1"):
