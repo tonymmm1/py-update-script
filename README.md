@@ -1,9 +1,15 @@
-## Release: 0.1.0
+# Release: 0.1.0
 ## py-update-script
 
 ### Overview
 
 This is a simple python script to update linux machines over ssh. It is configurable using a TOML file. 
+
+### Dependencies
+
+```
+sudo pip3 install toml 
+```
 
 ### Instructions
 
@@ -26,4 +32,3 @@ root ALL=(ALL) ALL
 ```
 6. chmod +x 
 7. (Optional)Automate using cron
-
